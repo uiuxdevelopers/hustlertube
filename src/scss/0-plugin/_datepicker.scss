@@ -1,0 +1,54 @@
+.datepicker {
+  &.datepicker-dropdown {
+
+     
+    th {
+        &.next,
+        &.datepicker-switch,
+        &.prev {
+          background: $color-primaryLightest;
+          border-color: $color-primaryLightest;
+          cursor: pointer;
+        }
+      }
+
+    .datepicker-days{
+        td,
+        th {
+          padding: 5px !important;
+          border-color: $color-neutral;
+        }
+   
+    
+        td {
+          &.active.day,
+          &:hover {
+            background-color: $color-primary;
+          }
+        }
+    }
+
+
+
+    .datepicker-decades .decade,
+    .datepicker-centuries .century,
+    .datepicker-years .year,
+    .datepicker-months .month {
+        margin: -1px -1px 0 0;
+        display: inline-block;
+        padding: 0 10px;
+        padding: 5px;
+        border: 1px solid $color-neutral;
+        
+        &:hover{
+            background-color: $color-primary;
+            color: $color-white;
+            cursor: pointer;
+        }
+    }
+
+
+
+
+  }
+}

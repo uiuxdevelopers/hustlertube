@@ -1,0 +1,90 @@
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tfoot > tr > td {
+    background-color: $color-primaryLightest;
+    font-weight: 500;
+}
+
+
+
+.table {
+    font-size: 14px;
+    > tbody {
+        > tr{
+            td {
+                .btn {
+                  padding: 4px 10px;
+                  line-height: 14px;
+                }
+        
+                .form-group {
+                  > .btn {
+                    text-align: center;
+                  }
+                }
+        
+                .btn-group {
+                  .dropdown-menu {
+                    right: 0;
+                    left: auto;
+                    box-shadow: 0px 10px 4px 0px #eee;
+        
+                    .btn {
+                      margin: 4px 0px;
+                      width: 100%;
+                      box-sizing: inherit;
+                      text-align: left;
+                      padding: 4px 10px;
+        
+                      i {
+                        margin-right: 4px;
+                      }
+                    }
+                  }
+                }
+              }
+
+            &:nth-child(odd) {
+                background: #fbfbfb;
+            }
+        }
+    }
+}
+
+
+.table-report {
+    .fa-arrow-down:before {
+        color: #d00;
+    }
+    .fa-arrow-right:before {
+        color: #f9c419;
+    }
+    
+    .fa-arrow-up:before {
+        color: #28bb09;
+    }
+}
+
+
+
+
+
+.table {
+    tr {
+      td {
+        .progress {
+          height: 14px;
+          color: $color-smoke;
+          
+          .progress-bar {
+            font-size: 11px;
+            padding: 0px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+  }
+  
