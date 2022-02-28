@@ -4,6 +4,14 @@ body {
     overflow-x: hidden;
 }
 
+
+@media ( max-width: 800px) {
+    div#body-wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
 * {
     font-family: 'Roboto';
 }
@@ -161,6 +169,12 @@ section.vison-area .cont {
     padding-left: 200px;
 }
 
+@media (max-width: 800px ) {
+    section.vison-area .cont {
+        padding-top: 180px;
+        padding-left: 20px;
+    }
+}
 
 section.vison-area .cont h2 {
     font-size: 48px;
@@ -299,6 +313,13 @@ section.roadmap-area {
     margin-bottom: 30px
 }
 
+@media (max-width: 800px) {
+    .community-area .comm__intro h2 {
+        font-size: 40px;
+    margin-top: 130px;
+    }
+}
+
 .community-area .comm__intro h2 span {
     display: block;
     font-size: 26px;
@@ -312,6 +333,12 @@ section.roadmap-area {
 
 .community-area .box.big {
     transform: scale(1.1);
+}
+
+@media ( max-width: 800px ) {
+    .community-area .box.big {
+        transform: scale(0.9);
+    }
 }
 
 .community-area .box {
@@ -345,7 +372,19 @@ section.news-area h2+p {
     padding: 30px;
 }
 
+@media ( max-width: 800px ) {
+    .news-area .box__inr {
+        margin-bottom: 30px;
+    }    
+}
+
 .news-area .box__img {height: 120px;font-size: 62px;display: flex;justify-content: center;align-items: center;}
+
+@media ( max-width: 800px ) {
+    .news-area .box__img {
+        font-size: 42px;
+    }
+}
 
 .news-area .box__cont {
     min-height: 110px;
@@ -366,6 +405,12 @@ section.bottom-area .box {
     min-height: 440px;
     padding: 100px;
     color: #fff;
+}
+
+@media ( max-width: 800px ) {
+    section.bottom-area .box {
+        padding: 40px;
+    }
 }
 
 section.bottom-area .box.box-left {
