@@ -8,13 +8,13 @@ window.addEventListener("scroll", function(event) {
 
 
 		if( top== 0) {
-			logo.setAttribute("style", `left: 45vw; top: 10px`);
+			logo.setAttribute("style", `left: 50vw; top: 10px`);
 		} else if( top < 120) {
-			logo.setAttribute("style", `left: 90px; top: 10px`);
+			logo.setAttribute("style", `left: 7vw; top: 10px`);
 		} else if ( top < 400 ) {
-			logo.setAttribute("style", `left: 10px; top: ${top+100}px`)
+			logo.setAttribute("style", `left: 7vw; top: ${top+100}px`)
 		} else if ( top < 1200 ) {
-			logo.setAttribute("style", `left: 110px; top: ${top+100}px`)
+			logo.setAttribute("style", `left: 7vw; top: ${top+100}px`)
 		} 
 		else if ( top < 1550 ) {
 			logo.setAttribute("style", `left: 47vw; top: ${top+100}px`)
@@ -29,12 +29,12 @@ window.addEventListener("scroll", function(event) {
 			logo.setAttribute("style", `left: 4vw; top: ${top+100}px`)
 		}
 
-		else if ( top < 2800 ) {
+		else if ( top < 4000 ) {
 			logo.setAttribute("style", `left: 90vw; top: ${top+100}px`)
 		}
 
 		else if ( top < 4620 ) {
-			logo.setAttribute("style", `left: 80vw; top: ${top+100}px`)
+			logo.setAttribute("style", `left: 85vw; top: ${top+100}px`)
 		}
 
 
@@ -46,7 +46,7 @@ window.addEventListener("scroll", function(event) {
 		}
 
 		else if ( top < 4900 ) {
-			logo.setAttribute("style", `left: -10vw; opacity: 0; top: ${top+100}px`)
+			logo.setAttribute("style", `left: -10vw; opacity: 0; top: ${top+150}px`)
 		}
 
 
@@ -65,7 +65,7 @@ window.addEventListener("scroll", function(event) {
 		}
 
 		else if ( top < 6500 ) {
-			logo.setAttribute("style", `left: 45vw; opacity: 1; top: ${top+100}px`)
+			logo.setAttribute("style", `left: 50vw; opacity: 1; top: ${top+100}px`)
 		}
 
 

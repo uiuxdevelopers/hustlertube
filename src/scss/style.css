@@ -13,8 +13,9 @@ body {
     position: absolute;
     width: 120px;
     margin: 0 auto;
-    left: 45vw;
+    left: 50vw;
     transition: all 0.2s;
+    margin-left: -60px;
 }
 
 section#headerNav {
@@ -105,14 +106,32 @@ section.hero-area {
 }
 
 
-.hero-area
-img#tube1 {
+.hero-area img#tube1 {
     position: absolute;
-    left: 100px;
+    left: 2vw;
     bottom: -200px;
     width: 140px;
 }
 
+
+@media (min-width: 1900px) {
+    .hero-area img#tube1 {
+        left: 3vw;
+    }
+}
+
+@media (min-width: 2000px) {
+    .hero-area img#tube1 {
+        left: 4vw;
+    }
+}
+
+
+@media (min-width: 2800px) {
+    .hero-area img#tube1 {
+        left: 4.5vw;
+    }
+}
 
 section.vison-area {
     min-height: 720px;
@@ -140,8 +159,19 @@ img#tube2 {
     position: absolute;
     height: 350px;
     bottom: -220px;
-    left: 270px;
+    left: 50vw;
+    width: 540px;
+    margin-left: -520px;
 }
+
+@media (min-width: 2000px) {
+    img#tube2 {
+        left: 49.5vw;
+    }
+}
+
+
+
 
 .properties-area 
 .swiper-slide img {
@@ -353,11 +383,12 @@ section.bottom-area .box.box-left .bottom {
 
 section.bottom-area .icons .fa {
     border: 1px solid #fff;
-    width: 40px;
+    width: 44px;
     display: inline-block;
-    height: 40px;
+    height: 44px;
     margin: 0 10px;
     border-radius: 50px;
+    padding: 7px;
 }
 
 
